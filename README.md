@@ -1,4 +1,3 @@
-# historical_import
 <img src='https://axonify.com/wp-content/uploads/2023/03/Axonify-Logo.jpg' height = "500 px">
 
 The code below is a script example of a tool that is used will query an instance take records using the knowledge map API to create a data import record for use in instance consolidation or quickly grabbing data from one instance to put into another. 
