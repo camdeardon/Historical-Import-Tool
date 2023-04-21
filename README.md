@@ -1,6 +1,6 @@
 <img src='https://axonify.com/wp-content/uploads/2023/03/Axonify-Logo.jpg' height = "500 px">
 
-🛠️ Here we have an example of a tool that can help you leverage APIs from Axonify to gather instance records. This tool will send a GET request to a specified Axonify instance using the Knowledge Records API. It will then parse the response and extract information about knowledge records stored in Axonify. The extracted records will be turned into CSV files that can be used in the historical importer within the Axonify platform for instance consolidation.
+🛠️ Here is an example of a tool that can help you leverage APIs from Axonify to gather instance records. This tool will send a GET request to a specified Axonify instance using the Knowledge Records API. It will then parse the response and extract information about knowledge records stored in Axonify. The extracted records will be turned into CSV files that can be used in the historical importer within the Axonify platform for instance consolidation.
 
 🔍 Additionally, this script can also fill out an Edcast import template and utilize the Axonify APIs to create topic-level deep to create a seamless connection 🤝
 
