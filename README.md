@@ -4,7 +4,7 @@
 
 🔍 Additionally, this script can also fill out an Edcast import template and utilize the Axonify APIs to create topic-level deep to create a seamless connection 🤝
 
- ⛓ Deep links can be created using the internal ID and Topic Level.
+ ⛓ Deep links can be created using the internal ID and Topic Level which are founding within knowledgeRecorsds -> topicDetails
 
 💻 To run this script, make sure to import the necessary libraries.  Please note, this script will store the records on your machine in a folder called "Edcast_Axonify_connection".
 
