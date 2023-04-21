@@ -1,11 +1,14 @@
 <img src='https://axonify.com/wp-content/uploads/2023/03/Axonify-Logo.jpg' height = "500 px">
 
-This script is an example of a tool that is used to leverage the Knowledgemap API from Axonify. It will send GET request to a specificied Axonify instance using the Knowledge Records API. It will then parse the response and pull out information partaining to knowledge records that are stored in Axonify. These records will be turned into CSV files that can be used in the historical importer within the Axonify platform for us in instance consolidation.
+👋 Hey there, welcome to this documentation!
 
-This script will also work to fill out an Edcast import template and leverage the Axonify APIs to create topic level deeplinks in the Topic Sync function.
+🛠️ Here we have an example of a tool that can help you leverage the Knowledgemap API from Axonify. This tool will send a GET request to a specified Axonify instance using the Knowledge Records API. It will then parse the response and extract information about knowledge records stored in Axonify. The extracted records will be turned into CSV files that can be used in the historical importer within the Axonify platform for instance consolidation.
 
+🔍 Additionally, this script can also fill out an Edcast import template and utilize the Axonify APIs to create topic-level deep links in the Topic Sync function. This can help make your workflow more efficient and save you time! ⏰
 
-This code will import the libraries that are required to run this script and store the records on your machine in a folder call "Edcast_Axonify_connection"
+💻 To run this script, make sure to import the necessary libraries.  Please note, this script will store the records on your machine in a folder called "Edcast_Axonify_connection".
+
+📖 If you want to learn more about deep linking with Axonify, check out their documentation below. 🚀
 
 
 The deep link documentation from Axonify is found below.
