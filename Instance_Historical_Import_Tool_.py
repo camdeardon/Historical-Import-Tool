@@ -52,7 +52,33 @@ nltk.download('punkt')
 
 
 # Provide a list of users with of the learning records you'd like to retrieve. 
-users = ['Pursuit_Content Catalogue Sync_AUWC'         ,'Pursuit_Content Catalogue Sync_CDNCC'         ,'Pursuit_Content Catalogue Sync_GBSD'         ,'Pursuit_Content Catalogue Sync_GFS'         ,'Pursuit_Content Catalogue Sync_GWAMFS'         ,'Pursuit_Content Catalogue Sync_GWAMRL'         ,'Pursuit_Content Catalogue Sync_MFS']
+users = ['']
+
+# # Pass in API Key / Instance URL
+
+# 
+# 
+# ---
+# 
+# 
+# This code is where you can specific your API key and your instance name. Change the strings below to the relavent information, taking care to keep the information between quotation marks like below. 
+# 
+# 
+# 
+# ---
+# 
+# 
+
+# In[63]:
+
+
+instance = ''
+
+
+# In[59]:
+
+
+api_token = ''
 
 
 # ## Get topic_sync function is created
@@ -204,32 +230,6 @@ def topic_sync(instance,users,api_key,date):
 
     return ed_cast_template, topic_df
 
-
-# # Pass in API Key / Instance URL
-
-# 
-# 
-# ---
-# 
-# 
-# This code is where you can specific your API key and your instance name. Change the strings below to the relavent information, taking care to keep the information between quotation marks like below. 
-# 
-# 
-# 
-# ---
-# 
-# 
-
-# In[63]:
-
-
-instance = ''
-
-
-# In[59]:
-
-
-api_token = ''
 
 
 # # Get knowledge records function is called
